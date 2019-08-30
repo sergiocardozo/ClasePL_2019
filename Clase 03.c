@@ -10,7 +10,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <utn.h>
+#include "utn.h" //busca primero en carpeta del proyecto y luego en la biblioteca
+
+#ifndef UTN_H
+#
 
 int calculoMaxYMin(int *flagFun,int numeroFun,int *MaxFun, int *MinFun);
 
